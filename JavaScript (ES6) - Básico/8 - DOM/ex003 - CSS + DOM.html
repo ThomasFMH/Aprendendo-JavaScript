@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa ...</title>
+    <style>
+      body {
+          background-color: rgb(62, 50, 228); 
+          color: white;
+          font: normal 20pt Arial;
+      }
+      h1 {
+         color:rgb(243, 208, 6);
+      } /* Isso é um comentário */
+    </style>
+</head>
+<body>
+    <h1> Olá, mundo! </h1> <!-- Isso é uma comentário -->
+    <p>Já me livrei da maldição</p>
+    <script>
+
+        var n1 = parseInt(window.prompt('Digite um número: ')) // parseInt - Converse uma String para numero Inteiro.
+        var n2 = parseFloat(window.prompt('Digite outro número: ')) // parseFloat - Converse uma String para numero Decimal.
+        var n3 = Number(window.prompt('Digite outro número: ')) // Number - Converte por si só para um valor number Int ou Float.
+        var s = n1 + n2 + n3
+        window.alert("A soma dos valores é " + String(s)) // Utilizando String, converte o valor para uma String.
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Utilizando Cráses `exemplo´ e ${n} é possivel concatenar de forma mais simples.
+    </script>   
+</body>
+</html> 
